@@ -1,0 +1,10 @@
+bin
+tests/bin
+gen
+tests/gen
+/local.properties
+.DS_Store
+tests/reports
+index.html
+README.html
+USERS.html
