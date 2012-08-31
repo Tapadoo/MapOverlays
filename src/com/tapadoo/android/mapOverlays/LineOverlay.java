@@ -21,6 +21,16 @@ public class LineOverlay  extends Overlay {
 	private Paint mPaint;
 	private int pointsSize;
 	
+	
+	
+	public Paint getPaint() {
+		return mPaint;
+	}
+
+	public void setPaint(Paint paint) {
+		this.mPaint = paint;
+	}
+
 	public LineOverlay( List<GeoPoint> points )
 	{
 		super();
